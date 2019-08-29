@@ -1,4 +1,5 @@
 require('regenerator-runtime/runtime')
+
 class UserService {
   constructor() {
     this.baseUrl = 'http://localhost:3000'
@@ -25,8 +26,8 @@ class UserService {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        "email": "test@test.com",
-        "password": "test@test.com"
+        "email": process.env.email,
+        "password": process.env.password
       })
     })
     .then((response) => {
