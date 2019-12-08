@@ -7,12 +7,12 @@ class UserService {
 
   // TO DO:
   // Completely logout (settings)
-  //
+  
   // CRUD USER
   // Create user
   // Update user
   // Delete user
-  //
+  
   // AVATAR
   // Avatar upload
   // Avatar view

@@ -14,7 +14,8 @@
     "env-cmd": "9.0.3",
     "react": "16.9.0",
     "react-dom": "16.9.0",
-    "regenerator-runtime": "0.13.3"
+    "regenerator-runtime": "0.13.3",
+    "serialize-to-js": ">3.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
